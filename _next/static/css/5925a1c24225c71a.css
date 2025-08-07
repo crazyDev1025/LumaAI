@@ -1,0 +1,246 @@
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 1s;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+.hamburger.white.is-active .hamburger-inner,
+.hamburger.white.is-active .hamburger-inner:after,
+.hamburger.white.is-active .hamburger-inner:before {
+  background-color: #fff;
+}
+.hamburger.black.is-active .hamburger-inner,
+.hamburger.black.is-active .hamburger-inner:after,
+.hamburger.black.is-active .hamburger-inner:before {
+  background-color: #000;
+}
+.hamburger-box {
+  width: 2.4vmax;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -0.48vmax;
+}
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+  width: 2.4vmax;
+  height: 2px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+.hamburger.black .hamburger-inner,
+.hamburger.black .hamburger-inner:after,
+.hamburger.black .hamburger-inner:before,
+.hamburger.white .hamburger-inner,
+.hamburger.white .hamburger-inner:after,
+.hamburger.white .hamburger-inner:before {
+  background-color: #fff;
+}
+.hamburger-inner:after,
+.hamburger-inner:before {
+  content: "";
+  display: block;
+}
+.hamburger-inner:before {
+  top: -0.64vmax;
+}
+.hamburger-inner:after {
+  bottom: -0.64vmax;
+}
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger--spin .hamburger-inner:before {
+  transition: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+}
+.hamburger--spin .hamburger-inner:after {
+  transition: bottom 0.1s ease-in 0.25s,
+    transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger--spin.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hamburger--spin.is-active .hamburger-inner:before {
+  top: 0;
+  opacity: 0;
+  transition: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+}
+.hamburger--spin.is-active .hamburger-inner:after {
+  bottom: 0;
+  transform: rotate(-90deg);
+  transition: bottom 0.1s ease-out,
+    transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+}
+[data-hover-effect-root] {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+[data-hover-effect-text-wrapper] {
+  display: block;
+}
+[data-char-wrapper] {
+  display: inline-block;
+}
+[data-char-wrapper] span {
+  --char-index: 0;
+  --char-length: 1;
+  --char-delay: calc(var(--char-index) * 0.12s * (1 / var(--char-length)));
+  --char-reversed-delay: calc(
+    (var(--char-length) - var(--char-index)) * 0.05s * (1 / var(--char-length))
+  );
+  display: inline-block;
+  transition: transform 0.3s;
+}
+[data-hover-bottom-wrapper] {
+  position: absolute;
+  top: 100%;
+}
+[data-hover-effect]:hover [data-hover-bottom-wrapper] [data-char-wrapper] span,
+[data-hover-effect]:hover [data-hover-top-wrapper] [data-char-wrapper] span {
+  transform: translateY(-100%);
+}
+[data-hover-effect]:hover {
+  transition-delay: var(--char-delay);
+}
+[data-char-wrapper] span {
+  transition-delay: var(--char-reversed-delay);
+}
+[data-chars-effect-root].active
+  [data-hover-bottom-wrapper]
+  [data-char-wrapper]
+  span,
+[data-chars-effect-root].active
+  [data-hover-top-wrapper]
+  [data-char-wrapper]
+  span {
+  transform: translateY(-100%);
+}
+[data-chars-effect-root].active {
+  transition-delay: var(--char-delay);
+}
+[data-chars-effect-root].active span {
+  transition-delay: var(--char-reversed-delay);
+}
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/6355e33a7be6c4f2-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/2b06aa0944011e3d-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/198b513c9a9b8fb1-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/be6d0d2983a14e56-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/ada310073543b985-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphik_8f7cae;
+  src: url(/_next/static/media/8f93e31aaab8ba6f-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphik_Fallback_8f7cae;
+  src: local("Arial");
+  ascent-override: 104.69%;
+  descent-override: 20.72%;
+  line-gap-override: 9.42%;
+  size-adjust: 106.3%;
+}
+.__className_8f7cae {
+  font-family: __graphik_8f7cae, __graphik_Fallback_8f7cae;
+}
+.__variable_8f7cae {
+  --font-graphik: "__graphik_8f7cae", "__graphik_Fallback_8f7cae";
+}
+@font-face {
+  font-family: __graphikTight_5cb204;
+  src: url(/_next/static/media/384d5fd1e952c37a-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphikTight_5cb204;
+  src: url(/_next/static/media/61badb9dfc70b830-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphikTight_5cb204;
+  src: url(/_next/static/media/f5813fb350a50b74-s.p.woff) format("woff");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: __graphikTight_Fallback_5cb204;
+  src: local("Arial");
+  ascent-override: 108.59%;
+  descent-override: 21.76%;
+  line-gap-override: 9.68%;
+  size-adjust: 103.42%;
+}
+.__className_5cb204 {
+  font-family: __graphikTight_5cb204, __graphikTight_Fallback_5cb204;
+}
+.__variable_5cb204 {
+  --font-graphik-tight: "__graphikTight_5cb204",
+    "__graphikTight_Fallback_5cb204";
+}
