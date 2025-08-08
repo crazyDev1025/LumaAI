@@ -569,20 +569,6 @@
                   case "base":
                     t.has(i.type) ? (o = !1) : t.add(i.type);
                     break;
-                  case "meta":
-                    for (let e = 0, t = p.length; e < t; e++) {
-                      let t = p[e];
-                      if (i.props.hasOwnProperty(t)) {
-                        if ("charSet" === t) n.has(t) ? (o = !1) : n.add(t);
-                        else {
-                          let e = i.props[t],
-                            n = r[t] || new Set();
-                          ("name" !== t || !l) && n.has(e)
-                            ? (o = !1)
-                            : (n.add(e), (r[t] = n));
-                        }
-                      }
-                    }
                 }
                 return o;
               };
