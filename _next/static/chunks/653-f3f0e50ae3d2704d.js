@@ -288,7 +288,7 @@
     95211: function (e, t) {
       "use strict";
       t.Z = {
-        landing: "/dream-machine",
+        landing: "https://haven.dreamlabsai.org",
         pricing: "/dream-machine/pricing",
         creations: "/dream-machine/legacy-creations",
         singleCreation: (e) => "/dream-machine/legacy-creations/".concat(e),

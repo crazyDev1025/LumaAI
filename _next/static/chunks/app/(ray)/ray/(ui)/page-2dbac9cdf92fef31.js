@@ -7,7 +7,7 @@
     95211: function (e, t) {
       "use strict";
       t.Z = {
-        landing: "/dream-machine",
+        landing: "https://haven.dreamlabsai.org",
         pricing: "/dream-machine/pricing",
         creations: "/dream-machine/legacy-creations",
         singleCreation: (e) => "/dream-machine/legacy-creations/".concat(e),
@@ -1202,7 +1202,7 @@
                         children: [
                           (0, r.jsx)("h2", {
                             className: "text-h2 text-white",
-                            children: "Available now in Dream Machine.",
+                            children: "Available now in Dream Haven.",
                           }),
                           (0, r.jsxs)("div", {
                             className: "grid grid-cols-1 gap-9",
@@ -1210,7 +1210,7 @@
                               (0, r.jsxs)("p", {
                                 className: "text-body text-white/60",
                                 children: [
-                                  "Dream Ray2 is available today in Dream Machine, starting with paid subscribers. You can",
+                                  "Dream Ray2 is available today in Dream Haven, starting with paid subscribers. You can",
                                   " ",
                                   (0, r.jsx)(i.default, {
                                     target: "_blank",
