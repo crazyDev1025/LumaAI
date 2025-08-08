@@ -4814,7 +4814,7 @@
           "Retail",
           "Other",
         ]),
-        k = p.z.enum(["Dream Haven for Enterprise", "Dream Haven API"]),
+        k = p.z.enum(["Dream Machine for Enterprise", "Dream Machine API"]),
         w = p.z
           .object({
             firstName: p.z.string().nonempty("First name is required"),

@@ -12,7 +12,7 @@
     95211: function (e, t) {
       "use strict";
       t.Z = {
-        landing: "https://haven.dreamlabsai.org",
+        landing: "https://app.dreamlabsai.org",
         pricing: "/dream-machine/pricing",
         creations: "/dream-machine/legacy-creations",
         singleCreation: (e) => "/dream-machine/legacy-creations/".concat(e),
@@ -640,7 +640,7 @@
         return (0, r.jsxs)("footer", {
           className: (0, l.Z)(
             "col-start-2 col-end-12 grid grid-cols-2 md:grid-cols-10",
-            "gap-[clamp(.8rem,1vmax,1vw)] whitespace-nowrap border-t border-black/30 pb-[16vmax] pt-[4vmax] md:gap-0"
+            "gap-[clamp(.8rem,1vmax,1vw)] whitespace-nowrap border-t border-black/30 pt-[4vmax] md:gap-0"
           ),
           children: [
             (0, r.jsxs)("div", {
@@ -1251,7 +1251,7 @@
                           (0, r.jsx)(o, {
                             url: "https://x.com/DreamAI_eth",
                             label: "Twitter",
-                            desc: "Explore the possibilities unlocked through world building. Find\n                  tutorials, best practices, and inspiring examples from our\n                  community of millions of creatives. Learn how others are using\n                  Dream Haven, and the Dream API to transform their creative process \n                  across design, film, education, and beyond.",
+                            desc: "Explore the possibilities unlocked through world building. Find\n                  tutorials, best practices, and inspiring examples from our\n                  community of millions of creatives. Learn how others are using\n                  Dream Machine, and the Dream API to transform their creative process \n                  across design, film, education, and beyond.",
                           }),
                         ],
                       }),
@@ -1448,7 +1448,7 @@
                               children: (0, r.jsx)(s.default, {
                                 target: "_blank",
                                 rel: "noreferer",
-                                href: "https://haven.dreamlabsai.org",
+                                href: "https://app.dreamlabsai.org",
                                 className:
                                   "relative block h-full w-full overflow-hidden",
                                 children: (0, r.jsx)("video", {
@@ -1646,7 +1646,7 @@
                                 videoSrc:
                                   "/static.cdn-luma.com/files/site/home/Photon.mp4",
                                 desc: "Creative, intelligent and personalizable image generation model that delivers ultra high quality and 10x higher cost efficiency.",
-                                href: "https://haven.dreamlabsai.org",
+                                href: "https://app.dreamlabsai.org",
                               }),
                               (0, r.jsx)(d, {
                                 label: (0, r.jsx)(i, {
@@ -1656,7 +1656,7 @@
                                 videoSrc:
                                   "/static.cdn-luma.com/files/site/home/RAY 2 Official Premiere_smaller_cut.mp4",
                                 desc: "A new generation of video model capable of producing fast coherent motion, ultra-realistic details, and logical event sequences.",
-                                href: "https://haven.dreamlabsai.org",
+                                href: "https://app.dreamlabsai.org",
                               }),
                             ],
                           }),
@@ -1992,8 +1992,43 @@
       var r = a(20209);
       t.Z = (e) => {
         let { fill: t = "black", ...a } = e;
-        return (0, r.jsxs)("img", {
-          src: "/favicon.png"
+        return (0, r.jsxs)("svg", {
+          ...a,
+          viewBox: "0 0 121 141",
+          fill: "none",
+          xmlns: "http://www.w3.org/2000/svg",
+          children: [
+            (0, r.jsx)("path", {
+              d: "M0 35.6017L60.5 0.607422V140.607L0 105.606V35.6017Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+            (0, r.jsx)("path", {
+              d: "M60.5 140.598L0 105.596L60.5 70.594L121 105.596L60.5 140.598Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+            (0, r.jsx)("path", {
+              d: "M60.5 140.598L0 105.596L60.5 70.594L121 105.596L60.5 140.598Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+            (0, r.jsx)("path", {
+              d: "M0 35.6017L60.5 0.607422V140.607L0 105.606V35.6017Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+            (0, r.jsx)("path", {
+              d: "M60.5 140.598L0 105.596L60.5 70.594L121 105.596L60.5 140.598Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+            (0, r.jsx)("path", {
+              d: "M0 35.6017L60.5 0.607422V140.607L0 105.606V35.6017Z",
+              fill: t,
+              fillOpacity: "0.3",
+            }),
+          ],
         });
       };
     },
@@ -2523,7 +2558,7 @@
                   "/static.cdn-luma.com/files/92837564b1e5305c/modify-video-launch.mp4",
                 title: "Introducing Modify Video",
                 description:
-                  "Reimagine any video. Shoot it in post with director-grade control over style, character, and setting. Restyle expressive performances, swap entire worlds, or redesign the frame to your vision. Shoot once. Shape infinitely.",
+                  "Reimagine any video. Shoot it in post with director-grade control over style, character, and setting. Restyle expressive performances, swap entire worlds, or redesign the frame to your vision. Shoot once. Shape infinitely. CA:0xcomingsoon",
                 learnMoreLink: "/blog/news/introducing-modify-video",
               },
               {
@@ -2559,7 +2594,7 @@
                   "/static.cdn-luma.com/files/1ed98b33d66523e5/KeyframeHighres.mp4",
                 title: "Keyframe, extend and loop for Ray2",
                 description:
-                  "Create your visual story with precise frame-by-frame control, seamless transitions, spatial exploration and long-form video durations using Ray 2 Text-to-Video and Image-to-Video models in Dream Haven",
+                  "Create your visual story with precise frame-by-frame control, seamless transitions, spatial exploration and long-form video durations using Ray 2 Text-to-Video and Image-to-Video models in Dream Machine",
               },
             ],
             headerData: a,

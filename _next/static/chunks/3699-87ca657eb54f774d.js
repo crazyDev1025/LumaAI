@@ -5,7 +5,7 @@
     95211: function (e, t) {
       "use strict";
       let n = {
-        landing: "https://haven.dreamlabsai.org",
+        landing: "https://app.dreamlabsai.org",
         pricing: "/dream-machine/pricing",
         creations: "/dream-machine/legacy-creations",
         singleCreation: (e) => "/dream-machine/legacy-creations/".concat(e),
@@ -11460,7 +11460,7 @@
       var r = n(95211),
         i = n(16257);
       let a = [
-        { url: r.Z.landing, text: "Dream Haven" },
+        { url: r.Z.landing, text: "Dream Machine" },
         { url: "/genie", text: "Genie" },
         { url: "/interactive-scenes", text: "Interactive Scenes" },
         { url: "/dashboard/captures", text: "My Captures" },
