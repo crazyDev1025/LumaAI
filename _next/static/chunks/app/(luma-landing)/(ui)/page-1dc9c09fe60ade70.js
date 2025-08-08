@@ -1673,14 +1673,6 @@
                                 "/static.cdn-luma.com/files/site/home/IMM_HomeSmall.mp4",
                               desc: (0, r.jsxs)(r.Fragment, {
                                 children: [
-                                  (0, r.jsx)("span", {
-                                    className: "block leading-[135%]",
-                                    children: "03/11/2025",
-                                  }),
-                                  (0, r.jsx)("span", {
-                                    className: "block leading-[135%]",
-                                    children: "Linqi Zhou, Jiaming Song",
-                                  }),
                                 ],
                               }),
                               href: "https://docs.dreamlabsai.org",
@@ -2539,6 +2531,20 @@
                             rel: "noreferer",
                             children: "Buy $DREAM",
                           }),
+                          
+                        }),
+                        (0, r.jsx)("div", {
+                          className:
+                            "pointer-events-none flex flex-1 items-end opacity-0 lg:justify-end",
+                          children: (0, r.jsx)(d.Z, {
+                            variant: "primary",
+                            size: "md",
+                            href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+                            target: "_blank",
+                            rel: "noreferer",
+                            children: "Chart",
+                          }),
+                          
                         }),
                       ],
                     }),
