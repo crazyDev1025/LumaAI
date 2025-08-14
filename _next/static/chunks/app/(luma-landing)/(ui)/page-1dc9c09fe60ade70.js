@@ -1206,7 +1206,7 @@
                       (0, r.jsxs)("div", {
                         children: [
                           (0, r.jsx)(s.default, {
-                            href: "https://t.me/DreamAI_eth",
+                            href: "https://t.me/DreamAIeth",
                             target: "_blank",
                             rel: "noreferrer",
                             className: "block h-[50vmax] overflow-hidden",
@@ -1223,7 +1223,7 @@
                             }),
                           }),
                           (0, r.jsx)(o, {
-                            url: "https://t.me/DreamAI_eth",
+                            url: "https://t.me/DreamAIeth",
                             label: "Telegram",
                             desc: "We're a small, high-achieving team building multimodal general intelligence \n                  If you share our vision of AI that transcends current boundaries to enable extraordinary\n                  capabilities and human-AI collaboration, we'd love to talk.",
                           }),
@@ -1249,7 +1249,7 @@
                             }),
                           }),
                           (0, r.jsx)(o, {
-                            url: "https://x.com/DreamAI_eth",
+                            url: "https://x.com/DreamAIeth",
                             label: "Twitter",
                             desc: "Explore the possibilities unlocked through world building. Find\n                  tutorials, best practices, and inspiring examples from our\n                  community of millions of creatives. Learn how others are using\n                  Dream Machine, and the Dream API to transform their creative process \n                  across design, film, education, and beyond.",
                           }),
@@ -2478,14 +2478,14 @@
                                     (0, r.jsx)(d.Z, {
                                       variant: "primary",
                                       size: "md",
-                                      href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+                                      href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x4b528fee007839962934f4458f0b24a334e42766",
                                       children: "Buy $DREAM",
                                     }),
                                     e.learnMoreLink &&
                                       (0, r.jsx)(d.Z, {
                                         variant: "secondary",
                                         size: "md",
-                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0x4b528fee007839962934f4458f0b24a334e42766",
                                         children: "Chart",
                                       }),
                                   ],
@@ -2526,7 +2526,7 @@
                           children: (0, r.jsx)(d.Z, {
                             variant: "primary",
                             size: "md",
-                            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon",
+                            href: "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x4b528fee007839962934f4458f0b24a334e42766",
                             target: "_blank",
                             rel: "noreferer",
                             children: "Buy $DREAM",
@@ -2539,7 +2539,7 @@
                           children: (0, r.jsx)(d.Z, {
                             variant: "primary",
                             size: "md",
-                            href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+                            href: "https://www.dextools.io/app/en/ether/pair-explorer/0x4b528fee007839962934f4458f0b24a334e42766",
                             target: "_blank",
                             rel: "noreferer",
                             children: "Chart",
@@ -2564,7 +2564,7 @@
                   "/static.cdn-luma.com/files/92837564b1e5305c/modify-video-launch.mp4",
                 title: "Introducing Modify Video",
                 description:
-                  "Reimagine any video. Shoot it in post with director-grade control over style, character, and setting. Restyle expressive performances, swap entire worlds, or redesign the frame to your vision. Shoot once. Shape infinitely. CA:0xcomingsoon",
+                  "Reimagine any video. Shoot it in post with director-grade control over style, character, and setting. Restyle expressive performances, swap entire worlds, or redesign the frame to your vision. Shoot once. Shape infinitely. CA:0x4b528fee007839962934f4458f0b24a334e42766",
                 learnMoreLink: "/blog/news/introducing-modify-video",
               },
               {
